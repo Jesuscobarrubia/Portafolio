@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jesus Cobarrubia</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/movimiento.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/2faf332233.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-trabajos">Trabajos</a>
+                <a href="#" id="btn-contacto">Contacto</a>
+            </nav>
+
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Jesús Cobarrubia</h1>
+                    <h2 class="profesion">Desarrollador Web Junior</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION MAIN -->
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="../Portafolio de Jesus/img/foto.png" alt="Jesus Cobarrubia">
+                </div>
+    
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Soy una persona autodidacta, dedicada al aprendizaje constante de las últimas tecnologías y herramientas usadas en el Desarrollo Web Front-End. Poseo conocimientos en <span class="bold">HTML</span> - <span class="bold">CSS</span> - <span class="bold">JAVASCRIPT</span> - <span class="bold">JQUERY</span> - <span class="bold">BOOTSTRAP</span> - <span class="bold">SASS</span>, los cuales he puesto a prueba desarrollando proyectos personales.</p>
+                </div>
+
+                <div class="open_certi">
+                    <a href="#openModal"><i class="fas fa-star certificado"></i></i></a>
+                    <p>Certificado</p>
+                </div>
+                
+                <div class="open_certi">
+                    <a href="#openModal2"><i class="fas fa-star certificado"></i></i></a>
+                    <p>Certificado</p>
+                </div>
+
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <img src="../Portafolio de Jesus/img/C1.png" alt="Certificado">
+                    </div>
+                </div>
+                <div id="openModal2" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <img src="../Portafolio de Jesus/img/C2.jpg" alt="Certificado">
+                    </div>
+                </div>
+            </div>
+        </section> <!--FIN SECTION ACERCA DE-->
+
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <!-- TRABAJO 1 -->
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://jesuscobarrubia.github.io/layout/" target="_blank"><img src="img/trabajos/sass.png" alt="Primer Trabajo"></a>
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Layout</p>
+                            <p class="categoria">HTML - CSS - SASS</p>
+                        </div>
+                    </div>
+                    <!-- TRABAJO 2 -->
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://jesuscobarrubia.github.io/cafe/" target="_blank"><img src="img/trabajos/rest.jpg" alt="Segundo Trabajo"></a>
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Restaurante</p>
+                            <p class="categoria">HTML - CSS - SASS- JQUERY</p>
+                        </div>
+                    </div>
+                    <!-- TRABAJO 3 -->
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://jesuscobarrubia.github.io/tecnologia/" target="_blank"><img src="img/trabajos/boo.png" alt="Tercer Trabajo"></a>
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Tecnología</p>
+                            <p class="categoria">HTML - CSS - BOOTSTRAP</p>
+                        </div>
+                    </div>
+                    <!-- TRABAJO 4 -->
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://jesuscobarrubia.github.io/startup/" target="_blank"><img src="img/trabajos/startup.png" alt="Cuarto Trabajo"></a>
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Startup</p>
+                            <p class="categoria">HTML - CSS - SASS - BOOTSTRAP</p>
+                        </div>
+                    </div>
+
+                </div> <!--FIN CONTENEDOR TRABAJOS-->
+            </div> <!-- FIN CONTENEDOR-->
+        </section> <!--FIN SECTION TRABAJOS-->
+    </section> <!--FIN DEL SECTION MAIN-->
+
+    <!-- FOOTER -->
+    <footer>        
+        <section class="redes-sociales contacto">
+            <h3 class="titulo">Contacto</h3>
+            <div class="contenedor">
+                <a href="https://mobile.twitter.com/CobarrubiaJesus" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://m.facebook.com/jesus.cobarrubia.3" class="facebook" target="_"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/Jesuscobarrubia" class="github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:jesuscobarrubia18@gmail.com" class="correo"><i class="far fa-envelope"></i></a>
+            </div>
+        </section>
+    </footer>    
+</body>
+</html>
