@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('#btn-trabajos').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: 800
+        scrollTop: 600
     }, 500);
     })
 
